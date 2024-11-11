@@ -1,0 +1,29 @@
+.box{
+    padding: 10px;
+}
+.box .item{
+    border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+.box .item+.item{
+    margin-top: 10px;
+}
+
+.box .item .name{
+    margin-left: 10px;
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.tip{
+    padding: 30px;
+}
+.tip span{
+    color: blueviolet;
+    word-break: keep-all;
+}

@@ -1,0 +1,36 @@
+{
+  "assets": [],
+  "encryptLevel": 0,
+  "features": {
+    "activityIntentTasks": false,
+    "nodejs": "auto"
+  },
+  "useFeatures": [],
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": true,
+    "splashText": "@技师老杨",
+    "stableMode": true,
+    "splashIcon": "./assets/logo.jpg"
+  },
+  "main": "main.node.js",
+  "icon": "./assets/logo.jpg",
+  "name": "金币收割鸡",
+  "optimization": {
+    "removeOpenCv": true,
+    "unusedResources": false
+  },
+  "packageName": "org.hy.coinMaster",
+  "scripts": {},
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "permissionConfig": {
+    "manifestPermissions": [
+      "android.permission.INTERNET",
+      "android.permission.WAKE_LOCK",
+      "android.permission.SYSTEM_ALERT_WINDOW"
+    ],
+    "requestListOnStartup": [
+    ]
+  }
+}
